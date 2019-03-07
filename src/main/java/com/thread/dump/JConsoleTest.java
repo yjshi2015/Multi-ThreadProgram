@@ -37,7 +37,7 @@ public class JConsoleTest {
     public static void main(String[] args) {
         try {
             Thread.sleep(15000);
-            System.out.println("======begin==========");
+            System.out.println("========begin==========");
             fillHeap(1000);
             System.gc();
             System.out.println("======GCÍê±Ï==========");
